@@ -15,7 +15,7 @@ public class DriverSeleniumFirefox extends DriverSelenium {
 
 		path.append("C:\\geckodriver\\geckodriver.exe");
 
-		System.setProperty("webdriber.gecko.driver", path.toString());
+		System.setProperty("webdriver.gecko.driver", path.toString());
 
 		System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "/dev/null");
 

@@ -17,7 +17,7 @@ public class MainIExplorer {
 		driver.get("https://www.eltiempo.es/ecija.html");
 		driver.findElement(By.id("inputSearch")).sendKeys("Écija");
 		driver.findElement(
-				By.xpath("//div[@id='page']/main/div[4]/div/section[4]/section/div/article/div/div[2]/div[4]/div[4]/i"))
+				By.xpath("//div[@id='page']/main/div[4]/div/section[3]/section/div/article/div/div[2]/div[3]/div[4]/i"))
 				.click();
 		System.out.println(driver
 				.findElement(By.cssSelector(

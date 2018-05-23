@@ -47,7 +47,7 @@ public class MainFirefox {
 		driver.getDriver().findElement(By.id("inputSearch")).sendKeys("Écija");
 		driver.getDriver()
 				.findElement(By.xpath(
-						"//div[@id='page']/main/div[4]/div/section[4]/section/div/article/div/div[2]/div[4]/div[4]/i"))
+						"//div[@id='page']/main/div[4]/div/section[3]/section/div/article/div/div[2]/div[3]/div[4]/i"))
 				.click();
 		System.out.println(driver.getDriver()
 				.findElement(By.cssSelector(

@@ -3,9 +3,8 @@ package es.dual.selen.selenium;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 
-public class App {
+public class MainFirefox {
 
 	public static void main(String[] args) throws IOException {
 
@@ -53,8 +52,8 @@ public class App {
 		System.out.println(driver.getDriver()
 				.findElement(By.cssSelector(
 						"div.table_tooltip.table_tooltip_city > div.table_tooltip_wrapper > p.table_tooltip_title"))
-				.getText() + "\n" + driver.getDriver().findElement(By.cssSelector("p.table_tooltip_forecast")).getText() + "\n"
-				+ driver.getDriver().findElement(By.cssSelector("p.table_tooltip_feels_like")).getText() + "\n"
+				.getText() + "\n" + driver.getDriver().findElement(By.cssSelector("p.table_tooltip_forecast")).getText()
+				+ "\n" + driver.getDriver().findElement(By.cssSelector("p.table_tooltip_feels_like")).getText() + "\n"
 				+ driver.getDriver().findElement(By.cssSelector("p.table_tooltip_prob_rain")).getText() + "\n"
 				+ driver.getDriver().findElement(By.cssSelector("span.table_tooltip_temp_c")).getText() + "\n"
 				+ driver.getDriver().findElement(By.cssSelector("span.table_tooltip_wind_speed")).getText());
